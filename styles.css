@@ -1,0 +1,48 @@
+:root {
+   --background-color: hsl(212, 45%, 89%);
+   --white: hsl(0, 0%, 100%);
+   --grayish-blue: hsl(220, 15%, 55%);
+   --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#qr-container {
+    width: 300px;
+    background-color: var(--white);
+    padding: 0.8rem 0.8rem 2rem 0.8rem;
+    border-radius: 1rem;
+    margin: 25vh auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.bold {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.small {
+    font-weight: 400;
+    color: var(--grayish-blue);
+    width: 90%;
+    margin: 0 auto;
+}
